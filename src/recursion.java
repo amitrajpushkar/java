@@ -1,9 +1,11 @@
+import java.util.Scanner;
+
 public class recursion {
     public static void main(String[] args) {
-      //  dec(5);
-       // inc(5);
-        System.out.println(fib(3));
+
+
     }
+
     public static void dec(int n)
     {
         if(n==0){
