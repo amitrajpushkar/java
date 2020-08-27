@@ -5,18 +5,18 @@ import java.util.Set;
 public class dsl {
     public static void main(String[] args) {
 
-        /*
-        int ar[] = {9, 2, 3, 4};
-        System.out.println(maxindex(ar));
 
-        int ar1[][] = {{1,2,3},{2,1,4},{5,4,3}};
+        int ar[] = {9, 2, 3, 4};
+        System.out.println("prog. for second largest element");
+        System.out.println(largestandsecondlargest(ar));
+
+        System.out.println("prog. for symmetric matrix");
+
+        int ar1[][] = {{1,2,3},{2,1,4},{3,4,3}};
         System.out.println(symm(ar1));
 
-         */
-       // duplicate();
-      //  int ar[] = {1,2,34,5};
-       // System.out.println(largestandsecondlargest(ar));
-
+        System.out.println("prog. for duplicate or redundancy ");
+        duplicate();
 
     }
 
