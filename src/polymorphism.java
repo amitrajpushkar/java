@@ -10,11 +10,13 @@ public class polymorphism {
     }
 }
     class parent{
+
         public void dance(){
             System.out.println("baap nach rha hai");
         }
     }
      class Child extends parent{
+
         public void dance(){
             System.out.println("launda nach rha hai");
         }
