@@ -1,9 +1,12 @@
+import java.util.Arrays;
+
 public class dsalgo {
     public static void main(String[] args) {
       //  inverse(27);
         int [] ar = {3,4,1,6,2,3};
         System.out.println(sunny(ar));
-
+        int [] ar1 = {7,10,4,3,20,15};
+        System.out.println(kth(ar1,6));
     }
 
     public static void inverse(int num) {
@@ -37,5 +40,18 @@ public class dsalgo {
         }
         return count;
     }
-}
+    public static int kth(int[]ar1,int smallest)
+    {
+        Arrays.sort(ar1);
+      int temp = smallest;
+      int store = 0;
+        for (int start = 0;start<=ar1.length;start++){
+        if(temp == start){
+            store= ar1[start-1];
+        }
+    }
+
+      return store;
+  }
+ }
 
