@@ -12,6 +12,7 @@ public class happyno {
         while (start<num){
             if ((num%start) == 0){
                 flag = 1;
+                break;
             }
             start += 1;
 
