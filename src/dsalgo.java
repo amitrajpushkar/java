@@ -7,6 +7,9 @@ public class dsalgo {
         System.out.println(sunny(ar));
         int [] ar1 = {7,10,4,3,20,15};
         System.out.println(kth(ar1,6));
+
+
+
     }
 
     public static void inverse(int num) {
